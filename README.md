@@ -1,8 +1,4 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
+`````md
 # Technology Cost Allocation Automation
 
 ## Overview
@@ -15,196 +11,430 @@ The solution automated the allocation of cybersecurity, backup, monitoring, emai
 
 ## Business Context
 
-The organization managed multiple technology services and licensing agreements, including:
+The organization managed multiple technology services and software licensing agreements, including cybersecurity, backup, monitoring, email security, and managed services.
 
-* Sophos Advanced Protection
-* Sophos Encryption
-* Sophos Email Security
-* COVE Backup
-* RMM (Remote Monitoring & Management)
-* Professional Services
-* Leased Technology Assets
+Invoice validation and cost allocation activities were performed manually using multiple spreadsheets, requiring significant analyst effort and introducing operational risks associated with data entry, calculation errors, and inconsistent cost center assignments.
 
-Each monthly invoice required manual validation and cost distribution across multiple departments and cost centers.
-
-The process depended heavily on spreadsheets, manual calculations, and individual knowledge.
+The objective of the project was to standardize and automate the allocation process while improving reporting capabilities and financial oversight.
 
 ---
 
-## Business Problem
+## Solution Architecture
 
-The previous process required analysts to:
-
-1. Receive supplier invoices.
-2. Review technology inventories.
-3. Validate active licenses and assigned assets.
-4. Match users with cost centers.
-5. Manually distribute costs.
-6. Generate pre-invoices for validation.
-
-Challenges included:
-
-* High manual effort.
-* Long processing times.
-* Data inconsistencies.
-* Incorrect cost allocation.
-* Missing inventory records.
-* Risk of overbilling.
-* Limited traceability.
-
-Average processing time:
-
-**60 minutes per billing cycle**
-
----
-
-## Solution Implemented
-
-Developed a VBA-based automation framework using Microsoft Excel.
-
-The solution included:
-
-### Automated Data Import
-
-* Technology inventories.
-* User assignments.
-* Cost center data.
-
-### Automated Cost Allocation
-
-The automation:
-
-* Identified active technology assets.
-* Mapped users to organizational cost centers.
-* Calculated proportional allocations.
-* Distributed invoice values automatically.
-
-### Data Standardization
-
-Implemented normalization controls to reduce matching errors caused by:
-
-* Uppercase/lowercase differences.
-* Accents and special characters.
-* Inconsistent naming conventions.
-
-### Consolidation Engine
-
-Integrated information from multiple technology services:
-
-* Sophos Advanced
-* Sophos Encryption
-* Sophos Email Security
-* COVE Backup
-* RMM
-
-into a centralized reporting layer.
-
-### Automated Pre-Invoice Generation
-
-Generated:
-
-* Cost allocation reports.
-* Cost center distributions.
-* Invoice validation support.
-* Executive summaries.
+```text
+Technology Service Provider
+            │
+            ▼
+     Supplier Invoice
+            │
+            ▼
+  Technology Inventory Import
+            │
+            ▼
+ User & Cost Center Mapping
+            │
+            ▼
+ Automated Allocation Engine
+            │
+            ▼
+ Data Quality Controls
+            │
+            ▼
+ Multi-Service Consolidation
+            │
+            ▼
+ Prefactura Generation
+            │
+            ▼
+ Cost Center Summary
+            │
+            ▼
+ Financial Validation
+```
 
 ---
 
-## Results
+## Project Outcomes
 
-| Metric              | Before     | After      |
-| ------------------- | ---------- | ---------- |
-| Processing Time     | 60 Minutes | 10 Minutes |
-| Time Reduction      | -          | 83%        |
-| Manual Calculations | High       | Minimal    |
-| Allocation Accuracy | Medium     | High       |
-| Traceability        | Limited    | Improved   |
-
----
-
-## Governance and Control Benefits
-
-### Financial Governance
-
-Improved visibility of technology spending across organizational cost centers.
-
-### Operational Governance
-
-Reduced dependency on manual processes and individual knowledge.
-
-### Auditability
-
-Created traceable allocation records supporting financial review and validation activities.
-
-### Data Quality
-
-Implemented automated controls to reduce allocation errors and data inconsistencies.
+- Reduced invoice validation effort from approximately 60 minutes to 10 minutes.
+- Improved allocation accuracy through automated cost center mapping.
+- Reduced dependency on manual calculations.
+- Increased traceability of technology-related expenses.
+- Improved financial governance and reporting consistency.
+- Consolidated multiple technology services into a unified reporting model.
+- Reduced operational errors associated with manual processing.
+- Improved visibility of technology spending by cost center.
 
 ---
 
-## Risk Assessment
+## Services Included
 
-### Risks Before Automation
+The solution supports allocation and validation activities related to:
 
-* Incorrect cost allocation.
-* Billing discrepancies.
-* Inventory inconsistencies.
-* Delayed invoice validation.
-* Human error.
-
-### Mitigations Implemented
-
-* Automated allocation logic.
-* Standardized data processing.
-* Consolidated reporting.
-* Automated validation controls.
-* Centralized cost allocation outputs.
+- Sophos Advanced Protection
+- Sophos Encryption
+- Sophos Email Security
+- COVE Backup
+- Remote Monitoring and Management (RMM)
+- Professional Services
+- Technology Assets under Leasing/Renting Models
 
 ---
 
-## Technologies Used
+## Key Technologies
 
-* Microsoft Excel
-* VBA (Visual Basic for Applications)
-* Pivot Tables
-* Data Consolidation Techniques
-* Cost Allocation Logic
+- Microsoft Excel
+- VBA (Visual Basic for Applications)
+- Cost Center Allocation
+- IT Asset Management
+- Financial Controls
+- Reporting Automation
+- Process Automation
+- Data Quality Controls
+- Technology Governance
+- Internal Controls
+
+---
+````md
+# Technology Cost Allocation Automation
+
+## Overview
+
+Designed and implemented an automated IT cost allocation solution to manage and distribute technology-related expenses across organizational cost centers.
+
+The solution automated the allocation of cybersecurity, backup, monitoring, email security, and managed service licensing costs, significantly reducing manual effort while improving financial governance, traceability, and allocation accuracy.
 
 ---
 
-## Skills Demonstrated
+## Business Context
 
-### IT Governance
+The organization managed multiple technology services and software licensing agreements, including cybersecurity, backup, monitoring, email security, and managed services.
 
-* Cost Allocation Governance
-* Technology Financial Management
-* Operational Controls
+Invoice validation and cost allocation activities were performed manually using multiple spreadsheets, requiring significant analyst effort and introducing operational risks associated with data entry, calculation errors, and inconsistent cost center assignments.
 
-### Process Improvement
-
-* Workflow Optimization
-* Operational Efficiency
-* Automation Design
-
-### Risk & Compliance
-
-* Internal Controls
-* Data Quality Controls
-* Audit Support
-
-### Technical Skills
-
-* VBA Development
-* Data Transformation
-* Reporting Automation
-* Spreadsheet Engineering
+The objective of the project was to standardize and automate the allocation process while improving reporting capabilities and financial oversight.
 
 ---
 
-## Key Achievements
+## Solution Architecture
 
-* Reduced operational effort by 83%.
-* Improved allocation accuracy.
-* Increased traceability of technology costs.
-* Automated multi-service cost distribution.
-* Strengthened governance over technology-related expenditures.
+```text
+Technology Service Provider
+            │
+            ▼
+     Supplier Invoice
+            │
+            ▼
+  Technology Inventory Import
+            │
+            ▼
+ User & Cost Center Mapping
+            │
+            ▼
+ Automated Allocation Engine
+            │
+            ▼
+ Data Quality Controls
+            │
+            ▼
+ Multi-Service Consolidation
+            │
+            ▼
+ Prefactura Generation
+            │
+            ▼
+ Cost Center Summary
+            │
+            ▼
+ Financial Validation
+```
+
+---
+
+## Project Outcomes
+
+- Reduced invoice validation effort from approximately 60 minutes to 10 minutes.
+- Improved allocation accuracy through automated cost center mapping.
+- Reduced dependency on manual calculations.
+- Increased traceability of technology-related expenses.
+- Improved financial governance and reporting consistency.
+- Consolidated multiple technology services into a unified reporting model.
+- Reduced operational errors associated with manual processing.
+- Improved visibility of technology spending by cost center.
+
+---
+
+## Services Included
+
+The solution supports allocation and validation activities related to:
+
+- Sophos Advanced Protection
+- Sophos Encryption
+- Sophos Email Security
+- COVE Backup
+- Remote Monitoring and Management (RMM)
+- Professional Services
+- Technology Assets under Leasing/Renting Models
+
+---
+
+## Key Technologies
+
+- Microsoft Excel
+- VBA (Visual Basic for Applications)
+- Cost Center Allocation
+- IT Asset Management
+- Financial Controls
+- Reporting Automation
+- Process Automation
+- Data Quality Controls
+- Technology Governance
+- Internal Controls
+
+---
+
+## Governance and Control Features
+
+The solution incorporates multiple governance mechanisms including:
+
+- Automated cost allocation rules.
+- Standardized data processing.
+- Cost center validation.
+- Centralized reporting.
+- Allocation traceability.
+- Consolidated technology expenditure visibility.
+- Financial review support.
+- Operational risk reduction.
+
+---
+
+## Metrics
+
+| Metric | Before | After |
+|----------|----------|----------|
+| Invoice Validation Time | 60 Minutes | 10 Minutes |
+| Allocation Process | Manual | Automated |
+| Consolidation | Multiple Files | Centralized |
+| Traceability | Limited | Improved |
+| Reporting | Manual | Automated |
+
+---
+
+## Solution Screenshots
+
+### License Inventory Source
+
+![License Inventory](screenshots/01-license-inventory-source.png)
+
+### Cost Center Allocation Rules
+
+![Cost Center Allocation](screenshots/02-cost-center-allocation-rules.png)
+
+### User and Cost Center Mapping
+
+![User Mapping](screenshots/03-user-cost-center-mapping.png)
+
+### Consolidated Services View
+
+![Consolidated Services](screenshots/04-consolidated-technology-services.png)
+
+### Prefactura Generation
+
+![Prefactura Generation](screenshots/05-prefactura-generation.png)
+
+### Executive Cost Center Summary
+
+![Executive Summary](screenshots/06-executive-cost-center-summary.png)
+
+---
+
+## Repository Structure
+
+```text
+technology-cost-allocation-automation
+│
+├── README.md
+│
+├── docs
+│   ├── business-case.md
+│   ├── risk-assessment.md
+│   ├── controls-matrix.md
+│   └── lessons-learned.md
+│
+├── diagrams
+│   ├── as-is.md
+│   └── to-be.md
+│
+├── evidence
+│   └── metrics.md
+│
+└── screenshots
+```
+
+---
+
+## Documentation
+
+Additional project documentation can be found in:
+
+- Business Case
+- Risk Assessment
+- Controls Matrix
+- Lessons Learned
+- Process Architecture Diagrams
+- Performance Metrics
+
+---
+
+## Professional Competencies Demonstrated
+
+This project demonstrates practical experience in:
+
+- Process Automation
+- IT Governance
+- Financial Governance
+- Operational Controls
+- Risk Reduction
+- Data Quality Management
+- Reporting Automation
+- Technology Asset Management
+- Continuous Improvement
+- Business Process Analysis
+
+---
+
+## Keywords
+
+IT Governance, GRC, Financial Governance, Cost Allocation, Internal Controls, VBA, Excel Automation, Process Improvement, Technology Governance, Reporting Automation, IT Asset Management, Operational Risk, Continuous Improvement, Business Process Automation.
+
+---
+
+## Disclaimer
+
+All screenshots, data samples, organizational references, and financial information have been anonymized to protect confidential and proprietary information.
+
+This repository focuses on the project methodology, governance controls, automation approach, and business outcomes rather than organizational data.
+````
+
+## Governance and Control Features
+
+The solution incorporates multiple governance mechanisms including:
+
+- Automated cost allocation rules.
+- Standardized data processing.
+- Cost center validation.
+- Centralized reporting.
+- Allocation traceability.
+- Consolidated technology expenditure visibility.
+- Financial review support.
+- Operational risk reduction.
+
+---
+
+## Metrics
+
+| Metric | Before | After |
+|----------|----------|----------|
+| Invoice Validation Time | 60 Minutes | 10 Minutes |
+| Allocation Process | Manual | Automated |
+| Consolidation | Multiple Files | Centralized |
+| Traceability | Limited | Improved |
+| Reporting | Manual | Automated |
+
+---
+
+## Solution Screenshots
+
+### License Inventory Source
+
+![License Inventory](screenshots/01-license-inventory-source.png)
+
+### Cost Center Allocation Rules
+
+![Cost Center Allocation](screenshots/02-cost-center-allocation-rules.png)
+
+### User and Cost Center Mapping
+
+![User Mapping](screenshots/03-user-cost-center-mapping.png)
+
+### Consolidated Services View
+
+![Consolidated Services](screenshots/04-consolidated-technology-services.png)
+
+### Prefactura Generation
+
+![Prefactura Generation](screenshots/05-prefactura-generation.png)
+
+### Executive Cost Center Summary
+
+![Executive Summary](screenshots/06-executive-cost-center-summary.png)
+
+---
+
+## Repository Structure
+
+```text
+technology-cost-allocation-automation
+│
+├── README.md
+│
+├── docs
+│   ├── business-case.md
+│   ├── risk-assessment.md
+│   ├── controls-matrix.md
+│   └── lessons-learned.md
+│
+├── diagrams
+│   ├── as-is.md
+│   └── to-be.md
+│
+├── evidence
+│   └── metrics.md
+│
+└── screenshots
+```
+
+---
+
+## Documentation
+
+Additional project documentation can be found in:
+
+- Business Case
+- Risk Assessment
+- Controls Matrix
+- Lessons Learned
+- Process Architecture Diagrams
+- Performance Metrics
+
+---
+
+## Professional Competencies Demonstrated
+
+This project demonstrates practical experience in:
+
+- Process Automation
+- IT Governance
+- Financial Governance
+- Operational Controls
+- Risk Reduction
+- Data Quality Management
+- Reporting Automation
+- Technology Asset Management
+- Continuous Improvement
+- Business Process Analysis
+
+---
+
+## Keywords
+
+IT Governance, GRC, Financial Governance, Cost Allocation, Internal Controls, VBA, Excel Automation, Process Improvement, Technology Governance, Reporting Automation, IT Asset Management, Operational Risk, Continuous Improvement, Business Process Automation.
+
+---
+
+## Disclaimer
+
+All screenshots, data samples, organizational references, and financial information have been anonymized to protect confidential and proprietary information.
+
+This repository focuses on the project methodology, governance controls, automation approach, and business outcomes rather than organizational data.
+`````
